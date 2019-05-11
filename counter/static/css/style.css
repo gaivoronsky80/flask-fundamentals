@@ -1,0 +1,74 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteiner {
+	width: 400px;
+	height: 200px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+	box-shadow: 1px 1px 15px gray;
+}
+
+h1 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 2em;
+	padding-top: 25px;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #b2b1b0, 
+      -1px 2px 1px #b7b6b5, 
+      -2px 4px 1px #bcbbba, 
+      -3px 6px 1px #cbc9c8, 
+      -4px 8px 1px #cfcdcd, 
+      -5px 10px 1px #d4d2d1, 
+      -6px 12px 1px #d8d6d5, 
+      -7px 14px 1px #dbdad9, 
+      -8px 16px 1px #dfdddc;
+}
+
+h2 {
+	padding-top: 20px;
+	font-family: "AppleGothic", sans-serif; 
+}
+
+.buttons {
+	width: 400px;
+	display: inline-block;
+}
+
+input.button1 {
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+form {
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+}
+
+input.button2 {
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+
+

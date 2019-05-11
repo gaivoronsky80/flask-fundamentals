@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Counter</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="conteiner">
+		<h1>Counter:</h1>
+		<h2>{{counter}} times</h2>
+		<div class="buttons">
+			<form action="/destroy_session" method="post">
+				<input class="button1" type="submit" name="delete" value="Clean Counter">
+			</form>
+			<form action="/add_2" method="post">
+				<input class="button2" type="submit" name="add" value="Counter +2">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
