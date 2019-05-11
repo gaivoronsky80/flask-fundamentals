@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Your Score</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="conteiner_reset">
+		<h1>{{session['text_reset']}}</h1>
+		<div class="reset">
+			<form action="/play_again" method="post" class="login">
+				<input class="button_play_again" type="submit" name="submit" value="Play Again!" style="color: orange">
+			</form>
+			<form action="/reset" method="post" class="login">
+				<input class="button_exit" type="submit" name="submit" value="Flatly">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

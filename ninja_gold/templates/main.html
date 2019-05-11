@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ninja Money</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="user_container">
+		<h1>Welcome {{username}}</h1>
+		<div class="your_gold">
+			<h2>Your <span>Gold:</span> {{session['your_gold']}} </h2>
+			<h3>You have: <span>{{session['steps']}}</span> steps!</h3>
+		</div>
+		<div class="action">
+			<div class="small farm" style="box-shadow: {{num1}}; border: {{border_farm}}">
+				<h3>{{session['location_1']}}</h3>
+				<p>(earns 10-20 golds)</p>
+				<form action="/add_gold" method="post">
+					<input type="hidden" name="building" value="Farm">
+					<input type="submit" name="submit" value="Find Gold!" {{action_farm}} style="background-color: {{color1}}; color: {{text_color1}}">
+				</form>
+			</div>
+			<div class="small cave" style="box-shadow: {{num2}}; border: {{border_cave}}">
+				<h3>{{session['location_2']}}</h3>
+				<p>(earns 5-10 golds)</p>
+				<form action="/add_gold" method="post">
+					<input type="hidden" name="building" value="Cave">
+					<input type="submit" name="submit" value="Find Gold!" {{action_cave}} style="background-color: {{color2}}; color: {{text_color2}}">
+				</form>
+			</div>
+			<div class="small house" style="box-shadow: {{num3}}; border: {{border_house}}">
+				<h3>{{session['location_3']}}</h3>
+				<p>(earns 2-5 golds)</p>
+				<form action="/add_gold" method="post">
+					<input type="hidden" name="building" value="House">
+					<input type="submit" name="submit" value="Find Gold!" {{action_house}} style="background-color: {{color3}}; color: {{text_color3}}">
+				</form>
+			</div>
+			<div class="small casino" style="box-shadow: {{num4}}; border: {{border_casino}}">
+				<h3>{{session['location_4']}}</h3>
+				<p>(earns/takes 0-50 golds)</p>
+				<form action="/add_gold" method="post">
+					<input type="hidden" name="building" value="Casino">
+					<input type="submit" name="submit" value="Find Gold!" {{action_casino}} style="background-color: {{color4}}; color: {{text_color4}}">
+				</form>
+			</div>
+		</div>
+		<p class="activities_name">Activities:</p>
+		<div class="activities">
+			{% for item in session['info']|reverse %}
+			<h4 class="dos">{{item}}</h4>
+			{% endfor %}
+		</div>
+	</div>
+</body>
+</html>

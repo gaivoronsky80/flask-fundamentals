@@ -1,0 +1,250 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteiner {
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+	-webkit-box-shadow: 0 8px 8px -4px black;
+	   -moz-box-shadow: 0 8px 8px -4px black;
+	        box-shadow: 0 8px 8px -4px black;
+}
+
+h1 {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 2em;
+	padding-top: 35px;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #b2b1b0, 
+      -1px 2px 1px #b7b6b5, 
+      -2px 4px 1px #bcbbba, 
+      -3px 6px 1px #cbc9c8, 
+      -4px 8px 1px #cfcdcd, 
+      -5px 10px 1px #d4d2d1, 
+      -6px 12px 1px #d8d6d5, 
+      -7px 14px 1px #dbdad9, 
+      -8px 16px 1px #dfdddc;
+}
+
+p {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+span {
+	color: orange;
+	text-shadow: none;
+}
+
+.buttons {
+	width: 400px;
+	display: inline-block;
+}
+
+input.login{
+	height: 25px;
+	border: 1px solid black;
+	padding-left: 5px;
+}
+
+input.button_login {
+	margin-top: 40px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+form.login {
+	margin-top: 30px;
+	width: 300px;
+	height: 40px;
+	display: inline-block;
+}
+
+/* USER CONTAINER / YOUR GOLD */
+
+.user_container {
+	width: 970px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 50px;
+	-webkit-box-shadow: 0 8px 8px -4px black;
+	   -moz-box-shadow: 0 8px 8px -4px black;
+	        box-shadow: 0 8px 8px -4px black;
+}
+
+.user_container h1 {
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+.your_gold {
+	width: 970px;
+	height: 100px;
+	display: inline-block;
+}
+
+.your_gold h2 {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1.5em;
+	padding-top: 20px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.your_gold h3 {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1.5em;
+	margin-right: 55px;
+	padding-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+/* ACTION */
+
+.action {
+	width: 870px;
+	height: 170px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.small {
+	width: 23.2%;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 5px 10px 5px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.small h3 {
+	margin-top: 20px;
+	font-family: "AppleGothic", sans-serif;
+}
+
+.small input {
+	width: 100px;
+	height: 25px;
+	margin-top: 35px;
+	border: none;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1em;
+	color: orange;
+	box-shadow: 1px 1px 2px black;
+}
+
+
+/* ACTIVITIES */
+
+.activities {
+	width: 870px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 10px;
+	overflow: scroll;
+	background-color: #464646;
+	-moz-box-shadow:    inset 0 0 10px black;
+    -webkit-box-shadow: inset 0 0 10px black;
+    box-shadow:         inset 0 0 10px black;
+}
+
+p.activities_name {
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+.dos {
+	color: lightgreen;
+	font-family: "Menlo", sans-serif;
+	font-size: 0.8em;
+	text-shadow: 0px 0px 10px green;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+
+/* RESET */
+
+.conteiner_reset {
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+	-webkit-box-shadow: 0 8px 8px -4px black;
+	   -moz-box-shadow: 0 8px 8px -4px black;
+	        box-shadow: 0 8px 8px -4px black; 
+}
+
+.reset form {
+	width: 120px;
+	display: inline-block;
+	margin-top: -10px;
+}
+
+.reset input {
+	margin-top: 0px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+.conteiner_reset h1 {
+	width: 380px;
+	height: 200px;
+	margin-left: 10px;
+	font-size: 1.6em;
+	line-height: 2;
+}
+
+.flat_color {
+	text-shadow: none;
+	font-size: 0.7em;
+}
+
+.flat {
+	color: black;
+	font-size: 0.7em;
+	text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
