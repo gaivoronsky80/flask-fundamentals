@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The Great Number Game!</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="conteiner">
+		<h1>Welcome to</h1>
+		<h1 class="bottom">The Great Number Game!</h1>
+		<p>I am thinking of a number between 1 and 100</p>
+		<p class="lower">Take a guess!</p>
+		<p class="lower">You have {{session['attempts']}} attempts!</p>
+		<div class="button_submit">
+			<form action="/process" method="post">
+				<input class="choose_numbers" type="text" name="user_number" style="text-align: center;">
+				<input class="button1" type="submit" name="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wrong Answer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="conteiner">
+		<h1>Welcome to</h1>
+		<h1 class="bottom">the Great Number Game!</h1>
+		<p>I am thinking of a number between 1 and 100</p>
+		<p class="lower">Take a guess!</p>
+		<p class="lower">You have {{session['attempts']}} attempts!</p>
+		<div class="red_squar">
+			<h2>{{user_number}}</h2>
+			<h2 class="red">{{too_high}} {{too_low}}</h2>
+		</div>
+		<div class="buttons_wrong">
+			<form action="/process" method="post">
+				<input class="choose_numbers_wrong" type="text" name="user_number">
+				<input class="button_wrong" type="submit" name="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

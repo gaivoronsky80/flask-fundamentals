@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Correct Answer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="conteiner">
+		<h1>Welcome to</h1>
+		<h1 class="bottom">the Great Number Game!</h1>
+		<p>I am thinking of a number between 1 and 100</p>
+		<p class="lower">Take a guess!</p>
+		<p class="lower">You have {{session['attempts']}} attempts!</p>
+		<div class="green_squar">
+			<h2 class="green">{{session['random_number']}} was the number!</h2>
+		</div>
+		<div class="buttons_wrong">
+			<form action="/reset">
+				<input class="button2" type="submit" name="play_again" value="Play again!">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

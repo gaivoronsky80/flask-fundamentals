@@ -1,0 +1,150 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteiner {
+	position: absolute;
+	width: 600px;
+	height: 550px;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+	box-shadow: 1px 1px 15px gray;
+}
+
+h1 {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1.5em;
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #b2b1b0, 
+      -1px 2px 1px #b7b6b5, 
+      -2px 4px 1px #bcbbba, 
+      -3px 6px 1px #cbc9c8, 
+      -4px 8px 1px #cfcdcd, 
+      -5px 10px 1px #d4d2d1, 
+      -6px 12px 1px #d8d6d5, 
+      -7px 14px 1px #dbdad9, 
+      -8px 16px 1px #dfdddc;
+}
+
+h1.bottom {
+	font-family: "AppleGothic", sans-serif;
+	font-size: 1.5em;
+	padding-top: 15px;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #b2b1b0, 
+      -1px 2px 1px #b7b6b5, 
+      -2px 4px 1px #bcbbba, 
+      -3px 6px 1px #cbc9c8, 
+      -4px 8px 1px #cfcdcd, 
+      -5px 10px 1px #d4d2d1, 
+      -6px 12px 1px #d8d6d5, 
+      -7px 14px 1px #dbdad9, 
+      -8px 16px 1px #dfdddc;
+}
+
+h2 {
+	color: white;
+	font-family: "AppleGothic", sans-serif;
+	padding-top: 60px;
+}
+
+.red {
+	padding-top: 5px;
+}
+
+p {
+	padding-top: 30px;
+	font-family: "AppleGothic", sans-serif; 
+}
+
+p.lower {
+	padding-top: 10px;
+	font-family: "AppleGothic", sans-serif; 
+}
+
+form {
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	text-align: center;
+	margin-left: 250px;
+}
+
+input.button1 {
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+}
+
+.choose_numbers {
+	width: 100px;
+	height: 35px;
+	margin-top: 70px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+input.button_wrong {
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+}
+
+.choose_numbers_wrong {
+	width: 100px;
+	height: 35px;
+	margin-top: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+input.button2 {
+	position: absolute;
+	margin-top: -60px;
+	margin-left: -50px;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 10px gray;
+	font-family: "AppleGothic", sans-serif;
+	font-size: 0.8em;
+}
+
+.red_squar {
+	width: 400px;
+	height: 170px;
+	margin-left: 100px;
+	margin-top: 30px;
+	background-color: red;
+	box-shadow: 1px 1px 10px gray;
+}
+
+.green_squar {
+	width: 400px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 30px;
+	background-color: green;
+	box-shadow: 1px 1px 10px gray;
+}
+
+
