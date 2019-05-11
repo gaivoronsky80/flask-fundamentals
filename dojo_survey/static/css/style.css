@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.info_container {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 1px solid black;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+form {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 1px solid black;
+}
+
+.content {
+	position: absolute;
+	width: 80%;
+	height: 93%;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.info_content {
+	position: absolute;
+	width: 90%;
+	height: 93%;
+	margin-top: 10px;
+	margin-left: 40px;	
+}
+
+p {
+	padding-top: 20px;
+}
+
+input, select {
+	float: right;
+}
+
+textarea {
+	margin-top: 10px;
+}
+
+input.button {
+	margin-top: 10px;
+}
+
+input.input {
+	width: 180px;
+}
+
+select {
+	width: 185px;
+}
+
+button {
+	margin-top: 150px;
+	margin-left: 370px;
+	position: absolute;
+	display: inline-block;
+}

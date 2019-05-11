@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Success</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="info_container">
+		<h3 style="text-decoration: underline;">Submitted Info</h3>
+		<div class="info_content">			
+			<p>Name: {{session['username']}}</p>
+			<p>Dojo Location: {{session['location']}}</p>
+			<p>Favotite language: {{session['language']}}</p>
+			<p>Comment: {{session['comment']}}</p>
+			<a href="/"><button>Go Back</button></a>
+		</div>
+	</div>
+</body>
+</html>
