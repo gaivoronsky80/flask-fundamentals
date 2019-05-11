@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main_checkerboard.css') }}">
+	<title>Checkerboard</title>
+</head>
+<body>
+	<table>
+	{% for i in range(0,times_row)%}
+		<tr>
+			{% for j in range(0,times_col)%}
+			<td class="color1" style="background-color: {{color1}}"></td>
+			<td class="color2" style="background-color: {{color2}}"></td>
+			{% endfor %}
+		</tr>
+		<tr>
+			{% for j in range(0,times_col)%}
+			<td class="color2" style="background-color: {{color2}}"></td>
+			<td class="color1" style="background-color: {{color1}}"></td>
+			{% endfor %}
+		</tr>
+	{% endfor %}
+	</table>
+
+</body>
+</html>
